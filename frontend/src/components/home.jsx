@@ -16,7 +16,7 @@ const Home = () => {
     <div className='auth-container-wrapper'>
       <div className='auth-container'>
       <h1 className='auth-header'>Welcome, {user}!</h1>
-      <p>This is your home page.</p>
+      <p>This is your 🏠 page.</p>
       <button className='submit-btn' onClick={logout}>logout</button>
       </div>
     </div>

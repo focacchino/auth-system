@@ -42,8 +42,8 @@ const Register = () => {
   return (
     <div className='auth-container-wrapper'>
       <div className='auth-container'>
-      <h1 className='auth-header'>Register</h1>
       <div>
+      <h1 className='auth-header'>Register</h1>
         <label className='auth-message'>First Name:</label>
         <input
         className='input-box'
@@ -93,9 +93,11 @@ const Register = () => {
           required
         />
       </div>
+      <div>
       <button className='submit-btn' onClick={handleSubmit}>Register</button>
       </div>
     </div>
+  </div>
   );
 };
 

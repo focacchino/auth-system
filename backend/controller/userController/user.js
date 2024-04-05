@@ -77,6 +77,7 @@ const getAllUser = async (req, res, next) => {
 };
 
 const updateForget = async (req, res, next) => {
+    console.log('hbjgfytdrdrte');
     try {
         console.log(req.body);
         if(!req.body) throw new Error('Body is required');      
